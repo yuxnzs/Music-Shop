@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA0DE6792C03A16B00E0145E /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0DE6782C03A16B00E0145E /* Config.swift */; };
+		CA11E40E2BFB3AE900F539F2 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA11E40D2BFB3AE900F539F2 /* Tab.swift */; };
+		CA11E4102BFB3B4000F539F2 /* ExpandTextTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA11E40F2BFB3B4000F539F2 /* ExpandTextTabBar.swift */; };
+		CA4AD4112BF61D34004BF0B7 /* SpotifyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4AD4102BF61D34004BF0B7 /* SpotifyService.swift */; };
+		CA4AD4132BF61F08004BF0B7 /* ProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4AD4122BF61F08004BF0B7 /* ProductView.swift */; };
+		CA8239EC2BF3B0890052BD89 /* CartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8239EB2BF3B0890052BD89 /* CartButton.swift */; };
+		CA8239EE2BF3B3DA0052BD89 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8239ED2BF3B3DA0052BD89 /* CartView.swift */; };
+		CA8239F02BF3B61D0052BD89 /* CartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8239EF2BF3B61D0052BD89 /* CartManager.swift */; };
+		CA8239F22BF3CCCF0052BD89 /* ProductRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8239F12BF3CCCF0052BD89 /* ProductRow.swift */; };
+		CAD032A52BFA169800677F05 /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD032A42BFA169800677F05 /* ProductDetailView.swift */; };
+		CAD7DBC52BFA7A8900DC9552 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD7DBC42BFA7A8900DC9552 /* ColorExtension.swift */; };
+		CAD92ADC2BF3950200888885 /* MusicShopApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD92ADB2BF3950200888885 /* MusicShopApp.swift */; };
+		CAD92ADE2BF3950200888885 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD92ADD2BF3950200888885 /* ContentView.swift */; };
+		CAD92AE22BF3950500888885 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAD92AE12BF3950500888885 /* Assets.xcassets */; };
+		CAD92AE52BF3950500888885 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAD92AE42BF3950500888885 /* Preview Assets.xcassets */; };
+		CAD92AED2BF3A07700888885 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD92AEC2BF3A07700888885 /* Product.swift */; };
+		CAD92AF02BF3A21000888885 /* ProductCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD92AEF2BF3A21000888885 /* ProductCard.swift */; };
+		CAE7582E2BFF85D500E8DA23 /* ActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE7582D2BFF85D500E8DA23 /* ActionButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CA0DE6782C03A16B00E0145E /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		CA11E40D2BFB3AE900F539F2 /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		CA11E40F2BFB3B4000F539F2 /* ExpandTextTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandTextTabBar.swift; sourceTree = "<group>"; };
+		CA4AD4102BF61D34004BF0B7 /* SpotifyService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyService.swift; sourceTree = "<group>"; };
+		CA4AD4122BF61F08004BF0B7 /* ProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductView.swift; sourceTree = "<group>"; };
+		CA8239EB2BF3B0890052BD89 /* CartButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartButton.swift; sourceTree = "<group>"; };
+		CA8239ED2BF3B3DA0052BD89 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		CA8239EF2BF3B61D0052BD89 /* CartManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartManager.swift; sourceTree = "<group>"; };
+		CA8239F12BF3CCCF0052BD89 /* ProductRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductRow.swift; sourceTree = "<group>"; };
+		CA8819B72BF53330001631BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAD032A42BFA169800677F05 /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
+		CAD7DBC42BFA7A8900DC9552 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		CAD92AD82BF3950200888885 /* MusicShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAD92ADB2BF3950200888885 /* MusicShopApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicShopApp.swift; sourceTree = "<group>"; };
+		CAD92ADD2BF3950200888885 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CAD92AE12BF3950500888885 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAD92AE42BF3950500888885 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CAD92AEC2BF3A07700888885 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		CAD92AEF2BF3A21000888885 /* ProductCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCard.swift; sourceTree = "<group>"; };
+		CAE7582D2BFF85D500E8DA23 /* ActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAD92AD52BF3950200888885 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA01314F2C03917500E73230 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				CA4AD4102BF61D34004BF0B7 /* SpotifyService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		CA0131502C0391B300E73230 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				CA8239EF2BF3B61D0052BD89 /* CartManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		CA0131512C03989D00E73230 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				CA0DE6782C03A16B00E0145E /* Config.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		CA8239EA2BF3ABF80052BD89 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CAD92ADD2BF3950200888885 /* ContentView.swift */,
+				CA8239ED2BF3B3DA0052BD89 /* CartView.swift */,
+				CA4AD4122BF61F08004BF0B7 /* ProductView.swift */,
+				CAD032A42BFA169800677F05 /* ProductDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CA8819B62BF5331E001631BB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA8819B72BF53330001631BB /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CAD7DBC32BFA7A7900DC9552 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				CAD7DBC42BFA7A8900DC9552 /* ColorExtension.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		CAD92ACF2BF3950200888885 = {
+			isa = PBXGroup;
+			children = (
+				CAD92ADA2BF3950200888885 /* MusicShop */,
+				CAD92AD92BF3950200888885 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAD92AD92BF3950200888885 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAD92AD82BF3950200888885 /* MusicShop.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAD92ADA2BF3950200888885 /* MusicShop */ = {
+			isa = PBXGroup;
+			children = (
+				CA0131512C03989D00E73230 /* Config */,
+				CA0131502C0391B300E73230 /* Managers */,
+				CA01314F2C03917500E73230 /* Services */,
+				CAD7DBC32BFA7A7900DC9552 /* Utility */,
+				CA8239EA2BF3ABF80052BD89 /* Views */,
+				CAD92AEE2BF3A1EE00888885 /* Components */,
+				CAD92ADB2BF3950200888885 /* MusicShopApp.swift */,
+				CAD92AEB2BF3A01300888885 /* Models */,
+				CAD92AE12BF3950500888885 /* Assets.xcassets */,
+				CA8819B62BF5331E001631BB /* Supporting Files */,
+				CAD92AE32BF3950500888885 /* Preview Content */,
+			);
+			path = MusicShop;
+			sourceTree = "<group>";
+		};
+		CAD92AE32BF3950500888885 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CAD92AE42BF3950500888885 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CAD92AEB2BF3A01300888885 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CAD92AEC2BF3A07700888885 /* Product.swift */,
+				CA11E40D2BFB3AE900F539F2 /* Tab.swift */,
+				CA11E40F2BFB3B4000F539F2 /* ExpandTextTabBar.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CAD92AEE2BF3A1EE00888885 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				CAD92AEF2BF3A21000888885 /* ProductCard.swift */,
+				CA8239EB2BF3B0890052BD89 /* CartButton.swift */,
+				CA8239F12BF3CCCF0052BD89 /* ProductRow.swift */,
+				CAE7582D2BFF85D500E8DA23 /* ActionButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAD92AD72BF3950200888885 /* MusicShop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAD92AE82BF3950500888885 /* Build configuration list for PBXNativeTarget "MusicShop" */;
+			buildPhases = (
+				CAD92AD42BF3950200888885 /* Sources */,
+				CAD92AD52BF3950200888885 /* Frameworks */,
+				CAD92AD62BF3950200888885 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MusicShop;
+			productName = MusicShop;
+			productReference = CAD92AD82BF3950200888885 /* MusicShop.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAD92AD02BF3950200888885 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					CAD92AD72BF3950200888885 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = CAD92AD32BF3950200888885 /* Build configuration list for PBXProject "MusicShop" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAD92ACF2BF3950200888885;
+			productRefGroup = CAD92AD92BF3950200888885 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAD92AD72BF3950200888885 /* MusicShop */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAD92AD62BF3950200888885 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAD92AE52BF3950500888885 /* Preview Assets.xcassets in Resources */,
+				CAD92AE22BF3950500888885 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAD92AD42BF3950200888885 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA8239EE2BF3B3DA0052BD89 /* CartView.swift in Sources */,
+				CAD92ADE2BF3950200888885 /* ContentView.swift in Sources */,
+				CA8239F02BF3B61D0052BD89 /* CartManager.swift in Sources */,
+				CAD92ADC2BF3950200888885 /* MusicShopApp.swift in Sources */,
+				CA0DE6792C03A16B00E0145E /* Config.swift in Sources */,
+				CAD032A52BFA169800677F05 /* ProductDetailView.swift in Sources */,
+				CA8239F22BF3CCCF0052BD89 /* ProductRow.swift in Sources */,
+				CAE7582E2BFF85D500E8DA23 /* ActionButton.swift in Sources */,
+				CAD92AF02BF3A21000888885 /* ProductCard.swift in Sources */,
+				CA11E4102BFB3B4000F539F2 /* ExpandTextTabBar.swift in Sources */,
+				CAD92AED2BF3A07700888885 /* Product.swift in Sources */,
+				CA4AD4112BF61D34004BF0B7 /* SpotifyService.swift in Sources */,
+				CA4AD4132BF61F08004BF0B7 /* ProductView.swift in Sources */,
+				CA8239EC2BF3B0890052BD89 /* CartButton.swift in Sources */,
+				CAD7DBC52BFA7A8900DC9552 /* ColorExtension.swift in Sources */,
+				CA11E40E2BFB3AE900F539F2 /* Tab.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CAD92AE62BF3950500888885 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CAD92AE72BF3950500888885 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAD92AE92BF3950500888885 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MusicShop/Preview Content\"";
+				DEVELOPMENT_TEAM = FSJ65THAK3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MusicShop/Supporting Files/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yuxnzs.MusicShop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CAD92AEA2BF3950500888885 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MusicShop/Preview Content\"";
+				DEVELOPMENT_TEAM = FSJ65THAK3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MusicShop/Supporting Files/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yuxnzs.MusicShop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAD92AD32BF3950200888885 /* Build configuration list for PBXProject "MusicShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAD92AE62BF3950500888885 /* Debug */,
+				CAD92AE72BF3950500888885 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAD92AE82BF3950500888885 /* Build configuration list for PBXNativeTarget "MusicShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAD92AE92BF3950500888885 /* Debug */,
+				CAD92AEA2BF3950500888885 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAD92AD02BF3950200888885 /* Project object */;
+}
