@@ -12,11 +12,10 @@ struct ProductDetailView: View {
                 AsyncImage(url: URL(string: product.image)) { image in
                     image
                         .resizable()
-                        .scaledToFill()
+                        .scaledToFit()
                 } placeholder: {
                     ProgressView()
                 }
-                .frame(maxWidth: .infinity, maxHeight: 400)
                 Spacer()
             }
             .ignoresSafeArea()
@@ -26,7 +25,7 @@ struct ProductDetailView: View {
             VStack {
                 // 不使用 .offset(y: -20)，因為會將整個 ScrollView 往上移，底部會留白
                 // 不往下推 400，推 380，達到資訊欄位部分壓到圖片底部
-                Spacer(minLength: 380)
+                Spacer(minLength: 365)
                 ScrollView {
                     // 資訊 + 按鈕 Wrapper
                     VStack {
